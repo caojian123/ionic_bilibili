@@ -1,0 +1,349 @@
+/* Empty. Add your own CSS if you like */
+body {
+  font: 1rem/1.5 '微软雅黑', 'Droid Sans Fallback', SimHei, Arial, Helvetica, tahoma, sans-serif;
+}
+.pt0 {
+  padding-top: 0;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.mt10 {
+  margin-top: 10px!important;
+}
+.nav-bar {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  clear: both;
+  visibility: hidden;
+}
+.nav-wrp a {
+  display: block;
+}
+.logo {
+  width: 63px;
+  height: 28px;
+  background-size: 63px 28px !important;
+  margin-left: 10px;
+  background: url(../img/logo.png) center no-repeat;
+}
+.cell {
+  float: right;
+  width: 44px;
+  height: 40px;
+  position: relative;
+  box-sizing: border-box;
+  margin-right: 5px;
+}
+.nav-bar .cell .nav-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -11px;
+  margin-top: -11px;
+}
+.bili-icon-tv,
+.bili-icon-tech,
+.bili-icon-music,
+.bili-icon-movie,
+.bili-icon-live,
+.bili-icon-kichiku,
+.bili-icon-game,
+.bili-icon-fashion,
+.bili-icon-douga,
+.bili-icon-dance,
+.bili-icon-bangumi,
+.bili-icon-search,
+.bili-icon-history,
+.bili-icon-fav,
+.bili-icon-history-2,
+.bili-icon-filter-hover,
+.bili-icon-filter,
+.bili-icon-upload,
+.bili-icon-circle-del,
+.bili-icon-arrow,
+.bili-icon-del {
+  background-image: url("../img/ui_3@2x.png");
+  background-size: 274px 228px;
+  display: block;
+}
+.bili-icon-search {
+  background-position: 0 -206px;
+  width: 22px;
+  height: 22px;
+}
+.bili-icon-history {
+  background-position: -22px -206px;
+  width: 22px;
+  height: 22px;
+}
+.tabs-top > .tabs,
+.tabs.tabs-top {
+  height: 40px;
+}
+.tabs {
+  line-height: 39px;
+  opacity: 1;
+}
+.tab-item {
+  opacity: 1;
+}
+.tab-nav > a {
+  font-size: 18px;
+}
+.tab-item-active .tab-title {
+  color: #444;
+}
+/****图片轮播****/
+.slider-pager {
+  position: absolute;
+  bottom: 20px;
+  width: 98%;
+  height: 5px;
+  text-align: center;
+}
+.slider-pager .slider-pager-page {
+  display: inline-block;
+  margin: 0px 3px;
+  width: 12px;
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+  font-size: 10px;
+}
+.slider-pager .slider-pager-page.active {
+  -webkit-transition: opacity 0.4s ease-in;
+  transition: opacity 0.4s ease-in;
+  color: red;
+}
+.slider-slide > a {
+  display: block;
+  height: 175px;
+}
+.slider-slide > a > img {
+  height: 220px;
+  width: 100%;
+}
+.item > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.item.item-thumbnail-top {
+  padding: 0;
+}
+.hotrecoment .header {
+  display: block;
+  height: 44px;
+  line-height: 44px;
+  padding: 0 12px;
+}
+.header .left {
+  float: left;
+  color: #444;
+  font-size: 14px;
+  position: relative;
+  padding-left: 25px;
+}
+.hotrecoment .header .hot {
+  font-size: 13px;
+  color: #ffb30f;
+  padding: 0 0 0 25px;
+}
+.hotrecoment .header .right {
+  float: right;
+  font-size: 14px;
+  color: #999;
+  position: relative;
+  padding-right: 25px;
+}
+.bilibili-index-sprite {
+  display: inline-block;
+  /* background-image: url('../img/index.png'); */
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 12px;
+  left: 0;
+}
+.bilibili-index-sprite {
+  background-image: url('../img/index@2x.png');
+  background-size: 30px 462px;
+}
+.bilibili-index-hot {
+  background-position: -5px -215px;
+  width: 20px;
+  height: 20px;
+}
+.bilibili-index-ranking {
+  background-position: -5px -65px;
+  width: 20px;
+  height: 20px;
+}
+.wrap {
+  background-color: #f0f0f0;
+  overflow-x: hidden;
+}
+.box {
+  background-color: #fff;
+}
+.wrap img {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.item {
+  border-width: 0;
+}
+.hot-cell {
+  position: relative;
+  width: 50%;
+  font-size: 13px;
+  color: #999;
+  padding-left: 18px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.bilibili-index-play {
+  background-position: -5px -425px;
+  width: 15px;
+  height: 11px;
+  top: 50%;
+  margin-top: -6px;
+}
+.bilibili-index-sprite {
+  display: inline-block;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 8px;
+  left: 0;
+}
+.bilibili-index-sprite {
+  background-image: url('../img/index@2x.png');
+  background-size: 30px 462px;
+}
+p.title {
+  margin-top: 5px;
+  width: 100%;
+  max-height: 36px;
+  line-height: 1.4;
+  overflow: hidden;
+  color: #444;
+  font-size: 13px;
+  white-space: initial;
+}
+.item-wrap {
+  flex-wrap: wrap;
+}
+.box .col-50:nth-of-type(3),
+.box .col-50:nth-of-type(4) {
+  margin-top: 10px;
+}
+.image-loader-container {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+}
+.channel-wrapper a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 0.625rem 0;
+  text-decoration: none;
+}
+.channel-icon {
+  margin: 0 auto 0.4375rem;
+  position: relative;
+  background-image: url("../img/ui_3@2x.png");
+  background-size: 274px 228px;
+  display: block;
+}
+.bili-icon-live {
+  background-position: -137px 0;
+  width: 68px;
+  height: 68px;
+}
+.channel-wrapper .channel-name {
+  color: #212121;
+  font-size: 14px;
+}
+.channel-wrapper p {
+  margin: 0;
+}
+.bili-icon-bangumi {
+  background-position: -206px -137px;
+  width: 68px;
+  height: 68px;
+}
+.channel-wrapper .channel-num {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 12px;
+  color: #fff;
+  background-color: #ccc;
+  height: 1.0625rem;
+  z-index: 1;
+  text-align: center;
+  padding: 0 0.375rem;
+  border-radius: 8px;
+}
+.bili-icon-douga {
+  background-position: -206px 0;
+  width: 68px;
+  height: 68px;
+}
+.bili-icon-music {
+  background-position: 0 -69px;
+  width: 68px;
+  height: 68px;
+}
+.bili-icon-dance {
+  background-position: -206px -69px;
+  width: 68px;
+  height: 68px;
+}
+.bili-icon-game {
+  background-position: 0 -137px;
+  width: 68px;
+  height: 68px;
+}
+.bili-icon-tech {
+  background-position: -69px 0;
+  width: 68px;
+  height: 68px;
+}
+.bili-icon-life {
+  width: 68px;
+  height: 68px;
+  background-image: url("../img/channel_life@2x.png");
+  background-size: 68px 68px;
+}
+.bili-icon-kichiku {
+  background-position: -137px -69px;
+  width: 68px;
+  height: 68px;
+}
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */

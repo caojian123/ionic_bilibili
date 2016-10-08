@@ -1,0 +1,157 @@
+<ion-view >
+  <ion-content lazy-scroll>
+  <!-- <p>
+    <ion-spinner icon="circles" class="spinner-energized"></ion-spinner>
+  </p> -->
+  <!-- 轮播 -->
+    <ion-slide-box on-slide-changed="slideHasChanged($index)" auto-play="true" does-continue="true" slide-interval="3000">
+      <ion-slide>
+        <a href="http://acg.tv/u1Gv" data-index="0">
+            <img src="img/1ddf37978d9fba6b16132d1fa5285b86f824d05a.jpg" alt="iOS版本正式上线">
+        </a>
+      </ion-slide>
+      <ion-slide>
+        <a href="http://www.bilibili.com/topic/v2/1542.html" data-index="1">
+            <img src="img/8cfa0702f093941ac282a5cfd3a44b421776d202.jpg" alt="周末放映室 第109期">
+        </a>
+      </ion-slide>
+      <ion-slide>
+        <a href="http://www.bilibili.com/topic/1538.html" data-index="2">
+           <img src="img/528250030c790256a91306c9a89ac47531e867bf.jpg" alt="紧张刺激的地球OL">
+        </a>
+      </ion-slide>
+    </ion-slide-box>
+    <!-- 轮播结束 -->
+    <section class="wrap">
+    <!--热门推荐 -->
+    <section class="hotrecoment mt10 box">
+      <a href="/mobile/ranking.html" class="header">
+          <div class="left">
+              <span class="bilibili-index-sprite bilibili-index-hot"></span>
+              <span>热门推荐</span>
+          </div>
+          <div class="right hot">
+              <span class="bilibili-index-sprite bilibili-index-ranking"></span>
+              <span>排行榜</span>
+          </div>
+      </a>
+      <div class="list pt0">
+         <div class="row item-wrap pt0">
+          <div class="col col-50" ng-repeat="hot in hotlist">
+            <a class="item item-thumbnail-top" href="#/tab/dash/{{hot.id}}">
+              <img image-lazy-src="{{hot.image}}" image-lazy-loader="android" image-lazy-distance-from-bottom-to-load="100" >
+              <p class="title">{{hot.desc}}</p>
+              <div class="meta clearfix">
+                  <div class="hot-cell pull-left">
+                      <span class="bilibili-index-sprite bilibili-index-play"></span>
+                      <span>3.2万</span>
+                  </div>
+                  <div class="hot-cell pull-left">
+                      <span class="bilibili-index-sprite bilibili-index-danmu"></span>
+                      <span>4811</span>
+                  </div>
+              </div>
+            </a>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+    <!--正在直播 -->
+    <section class="hotrecoment mt10 box">
+      <a href="/mobile/ranking.html" class="header">
+          <div class="left">
+              <span class="bilibili-index-sprite bilibili-index-hot"></span>
+              <span>正在直播</span>
+          </div>
+          <div class="right hot">
+              <span class="bilibili-index-sprite bilibili-index-ranking"></span>
+              <span>排行榜</span>
+          </div>
+      </a>
+       <div class="row item-wrap pt0">
+          <div class="col col-50" ng-repeat="live in livelist">
+            <a class="item item-thumbnail-top" href="#">
+              <img image-lazy-src="{{live.image}}" image-lazy-loader="android" image-lazy-distance-from-bottom-to-load="100">
+              <p class="title">{{live.desc}}</p>
+              <div class="meta clearfix">
+                  <div class="hot-cell pull-left">
+                      <span class="bilibili-index-sprite bilibili-index-play"></span>
+                      <span>3.2万</span>
+                  </div>
+                  <div class="hot-cell pull-left">
+                      <span class="bilibili-index-sprite bilibili-index-danmu"></span>
+                      <span>4811</span>
+                  </div>
+              </div>
+            </a>
+        </div>
+        </div>
+    </section>
+    <!-- end -->
+     <!--正在直播 -->
+    <section class="hotrecoment mt10 box">
+      <a href="/mobile/ranking.html" class="header">
+          <div class="left">
+              <span class="bilibili-index-sprite bilibili-index-hot"></span>
+              <span>正在直播</span>
+          </div>
+          <div class="right hot">
+              <span class="bilibili-index-sprite bilibili-index-ranking"></span>
+              <span>排行榜</span>
+          </div>
+      </a>
+       <div class="row item-wrap pt0">
+          <div class="col col-50" ng-repeat="live in livelist">
+            <a class="item item-thumbnail-top" href="#">
+              <img image-lazy-src="{{live.image}}" image-lazy-loader="android" image-lazy-distance-from-bottom-to-load="100">
+              <p class="title">{{live.desc}}</p>
+              <div class="meta clearfix">
+                  <div class="hot-cell pull-left">
+                      <span class="bilibili-index-sprite bilibili-index-play"></span>
+                      <span>3.2万</span>
+                  </div>
+                  <div class="hot-cell pull-left">
+                      <span class="bilibili-index-sprite bilibili-index-danmu"></span>
+                      <span>4811</span>
+                  </div>
+              </div>
+            </a>
+        </div>
+        </div>
+    </section>
+    <!-- end --> <!--正在直播 -->
+    <section class="hotrecoment mt10 box">
+      <a href="/mobile/ranking.html" class="header">
+          <div class="left">
+              <span class="bilibili-index-sprite bilibili-index-hot"></span>
+              <span>正在直播</span>
+          </div>
+          <div class="right hot">
+              <span class="bilibili-index-sprite bilibili-index-ranking"></span>
+              <span>排行榜</span>
+          </div>
+      </a>
+       <div class="row item-wrap pt0">
+          <div class="col col-50" ng-repeat="live in livelist">
+            <a class="item item-thumbnail-top" href="#">
+              <img image-lazy-src="{{live.image}}" image-lazy-loader="android" image-lazy-distance-from-bottom-to-load="100">
+              <p class="title">{{live.desc}}</p>
+              <div class="meta clearfix">
+                  <div class="hot-cell pull-left">
+                      <span class="bilibili-index-sprite bilibili-index-play"></span>
+                      <span>3.2万</span>
+                  </div>
+                  <div class="hot-cell pull-left">
+                      <span class="bilibili-index-sprite bilibili-index-danmu"></span>
+                      <span>4811</span>
+                  </div>
+              </div>
+            </a>
+        </div>
+        </div>
+    </section>
+    <!-- end -->
+    </section>
+  </ion-content>
+</ion-view>
